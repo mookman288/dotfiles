@@ -49,7 +49,7 @@ then
 
 		for i in "${files[@]}"
 		do
-			cp "${HOME}/.${i}" "./${i}"
+			cp "${HOME}/.${i}" "./files/${i}"
 		done
 
 		git add *
@@ -68,7 +68,7 @@ else
 	then
 		for i in "${files[@]}"
 		do
-			cp "./${i}" "${HOME}/.${i}"
+			cp "./files/${i}" "${HOME}/.${i}"
 		done
 
 		ln -s "${HOME}/.profile" "${HOME}/.zprofile"
