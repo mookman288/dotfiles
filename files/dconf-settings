@@ -1,0 +1,128 @@
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=900
+
+[org/gnome/settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[org/gnome/shell]
+enabled-extensions=['window-corner-preview@fabiomereu.it']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'gnome-control-center.desktop', 'firefox.desktop', 'thunderbird.desktop', 'org.gnome.Software.desktop', 'rhythmbox.desktop', 'libreoffice-writer.desktop', 'skype_skypeforlinux.desktop', 'discord_discord.desktop']
+
+[org/gnome/shell/extensions/dash-to-dock]
+dock-fixed=false
+dock-position='BOTTOM'
+dash-max-icon-size=28
+
+[org/gnome/shell/extensions/window-corner-preview]
+initial-right-crop=0.0
+initial-top-crop=0.0567
+initial-bottom-crop=0.0
+initial-corner='top-right'
+initial-left-crop=0.0189
+last-window-hash=''
+focus-hidden=true
+initial-zoom=0.17999999999999999
+
+[org/gnome/nautilus/preferences]
+search-filter-time-type='last_modified'
+
+[org/gnome/evolution-data-server]
+network-monitor-gio-name=''
+migrated=true
+
+[org/gnome/deja-dup]
+backend='goa'
+prompt-check='2019-09-25T19:49:03.192244Z'
+
+[org/gnome/deja-dup/goa]
+type='google'
+
+[org/gnome/deja-dup/file]
+migrated=true
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'Sundry', 'YaST']
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+translate=true
+categories=['X-GNOME-Utilities']
+apps=['org.gnome.baobab.desktop', 'deja-dup-preferences.desktop', 'eog.desktop', 'evince.desktop', 'org.gnome.FileRoller.desktop', 'gnome-calculator.desktop', 'gnome-dictionary.desktop', 'org.gnome.Characters.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Screenshot.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gnome-tweak-tool.desktop', 'gucharmap.desktop', 'seahorse.desktop', 'vinagre.desktop', 'yelp.desktop']
+name='X-GNOME-Utilities.directory'
+
+[org/gnome/desktop/app-folders/folders/Sundry]
+translate=true
+categories=['X-GNOME-Sundry']
+apps=['alacarte.desktop', 'authconfig.desktop', 'ca.desrt.dconf-editor.desktop', 'fedora-release-notes.desktop', 'firewall-config.desktop', 'flash-player-properties.desktop', 'gconf-editor.desktop', 'gnome-abrt.desktop', 'gnome-power-statistics.desktop', 'ibus-setup-anthy.desktop', 'ibus-setup.desktop', 'ibus-setup-hangul.desktop', 'ibus-setup-libbopomofo.desktop', 'ibus-setup-libpinyin.desktop', 'ibus-setup-m17n.desktop', 'ibus-setup-typing-booster.desktop', 'im-chooser.desktop', 'itweb-settings.desktop', 'jhbuild.desktop', 'javaws.desktop', 'java-1.7.0-openjdk-jconsole.desktop', 'java-1.7.0-openjdk-policytool.desktop', 'log4j-chainsaw.desktop', 'log4j-logfactor5.desktop', 'nm-connection-editor.desktop', 'orca.desktop', 'setroubleshoot.desktop', 'system-config-date.desktop', 'system-config-firewall.desktop', 'system-config-keyboard.desktop', 'system-config-language.desktop', 'system-config-printer.desktop', 'system-config-users.desktop', 'vino-preferences.desktop']
+name='X-GNOME-Sundry.directory'
+
+[org/gnome/desktop/app-folders/folders/YaST]
+translate=true
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+
+[org/gnome/desktop/notifications]
+application-children=['update-manager', 'org-gnome-software', 'skype-skypeforlinux', 'gnome-network-panel', 'discord-discord', 'firefox']
+
+[org/gnome/desktop/notifications/application/update-manager]
+application-id='update-manager.desktop'
+
+[org/gnome/desktop/notifications/application/skype-skypeforlinux]
+application-id='skype_skypeforlinux.desktop'
+
+[org/gnome/desktop/notifications/application/discord-discord]
+application-id='discord_discord.desktop'
+
+[org/gnome/desktop/notifications/application/firefox]
+application-id='firefox.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-network-panel]
+application-id='gnome-network-panel.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[org/gnome/desktop/interface]
+clock-format='12h'
+gtk-im-module='gtk-im-context-simple'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/session]
+idle-delay=uint32 240
+
+[org/gnome/control-center]
+last-panel='sound'
+
+[org/gnome/terminal/legacy]
+schema-version=uint32 3
+
+[org/gnome/software]
+check-timestamp=int64 1571825843
+
+[org/gtk/settings/file-chooser]
+sort-column='name'
+clock-format='12h'
+sidebar-width=196
+window-position=(68, 27)
+show-size-column=true
+show-hidden=false
+window-size=(1231, 700)
+sort-directories-first=true
+date-format='regular'
+sort-order='ascending'
+location-mode='path-bar'
+
+[apps/update-manager]
+first-run=false
+launch-time=int64 1571395464
+launch-count=5
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1571860579
+
+[com/ubuntu/SoftwareProperties]
+goa-account-id='account_1569440881_0'
