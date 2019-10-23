@@ -48,7 +48,7 @@ then
 		exit 1
 	fi
 else
-	echo -e "This will overwrite your existing dotfiles!{$NC}"
+	echo -e "This will overwrite your existing dotfiles!"
 
 	read -r -p "Are you sure? [Y/N] " response
 	if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]];
