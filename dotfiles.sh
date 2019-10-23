@@ -23,7 +23,7 @@ then
 	selection="restore"
 fi
 
-declare -a files=("donf-settings" "gemrc" "gitconfig" "gitignore" "npmignore" "packages" "profile" "vimrc" "zshrc")
+declare -a files=("dconf-settings" "gemrc" "gitconfig" "gitignore" "npmignore" "profile" "vimrc" "zshrc")
 
 if [ "$selection" == "backup" ];
 then
