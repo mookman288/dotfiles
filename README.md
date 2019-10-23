@@ -1,6 +1,17 @@
-dotfiles
-========
+# dotfiles
 
-The contents of the dotfiles will be copied to the respective file in your user's home directory.
+## Permissions
 
-    bash copy_files.sh
+`chmod +x dotfiles.sh`
+
+## Install
+
+`./dotfiles install`
+
+## Backup
+
+`./dotfiles backup`
+
+## Restore
+
+`./dotfiles restore`
