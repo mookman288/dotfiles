@@ -1,14 +1,28 @@
-# ~/.profile: executed by the command interpreter for login shells.
-# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
-# exists.
-# see /usr/share/doc/bash/examples/startup-files for examples.
-# the files are located in the bash-doc package.
+export flushdns='sudo killall -HUP mDNSResponder';
 
-# the default umask is set in /etc/profile; for setting the umask
-# for ssh logins, install and configure the libpam-umask package.
-#umask 022
+export NODE_ENV=development
 
-# if running bash
+color_prompt=yes
+force_color_prompt=yes
+
+# Autocomplete
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set mark-symlinked-directories on
+set page-completions off
+set completion-query-items 200
+set visible-stats on
+set skip-completed-text on
+
+# UTF-8
+set input-meta on
+set output-meta on
+set convert-meta on
+
+# Shift-tab autocomplete
+"\e[Z": menu-complete
+
+# If running bash
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
@@ -16,12 +30,12 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-# set PATH so it includes user's private bin if it exists
+# Set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-# set PATH so it includes user's private bin if it exists
+# Set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
