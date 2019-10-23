@@ -8,7 +8,7 @@ numlock-state='off'
 
 [org/gnome/shell]
 enabled-extensions=['window-corner-preview@fabiomereu.it']
-favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'gnome-control-center.desktop', 'firefox.desktop', 'thunderbird.desktop', 'org.gnome.Software.desktop', 'rhythmbox.desktop', 'libreoffice-writer.desktop', 'skype_skypeforlinux.desktop', 'discord_discord.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop', 'gnome-control-center.desktop', 'org.gnome.Software.desktop', 'code_code.desktop', 'thunderbird.desktop', 'skype_skypeforlinux.desktop', 'discord_discord.desktop', 'slack_slack.desktop', 'firefox.desktop', 'chromium_chromium.desktop', 'libreoffice-writer.desktop']
 
 [org/gnome/shell/extensions/dash-to-dock]
 dock-fixed=false
