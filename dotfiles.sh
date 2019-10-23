@@ -17,7 +17,7 @@ then
 	curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 	sudo add-apt-repository ppa:bit-team/stable
 	sudo apt-get update && apt-get upgrade
-	sudo apt-get install libavcodec-extra zsh bzip2 unzip mariadb-server php php-common php-curl php-dev php-gd php-imap php-mcrypt php-json php-mysql libwww-perl perl imagemagick php-imagick lua apache2 libapache2-mod-php nodejs backintime-qt4
+	sudo apt-get install libavcodec-extra zsh bzip2 unzip mariadb-server php php-common php-curl php-dev php-gd php-imap php-json php-mysql libwww-perl perl imagemagick php-imagick lua5.2 apache2 libapache2-mod-php nodejs backintime-qt4
 	wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 	git clone https://github.com/romkatv/powerlevel10k.git "${HOME}/.oh-my-zsh/themes/powerlevel10k"
 	selection="restore"
