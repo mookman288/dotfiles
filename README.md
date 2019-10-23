@@ -6,12 +6,12 @@
 
 ## Install
 
-`./dotfiles install`
+`./dotfiles.sh install`
 
 ## Backup
 
-`./dotfiles backup`
+`./dotfiles.sh backup`
 
 ## Restore
 
-`./dotfiles restore`
+`./dotfiles.sh restore`
